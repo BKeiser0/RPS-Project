@@ -4,18 +4,24 @@
 <head>
     <meta charset="UTF-8" />
     <title>RPS Project</title>
-    <link rel="styleSheet" href="RPSstyles.css">
-
+    <link rel="styleSheet" href="RPSStyles.css">
 </head>
 
 <body>
+    <div id="resultDisplay"></div>
+
     <div class="buttoncontainer">
         <button class="buttonchoice-rock">rock</button>
         <button class="buttonchoice-paper">paper</button>
         <button class="buttonchoice-scizzors">scizzors</button>
     </div>
 
-    <link rel="script" href="RPSScript.js">
+    <div id="playerScore">Player Wins: 0</div>
+    <div id="computerScore">Computer Wins: 0</div>
+    <div id="drawsScore">Draws: 0</div>
+    <div id="historyDisplay"></div>
+
+    <script src="RPSScript.js"></script>
 </body>
 
 </html>
